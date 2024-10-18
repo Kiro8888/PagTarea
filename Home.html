@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Asegúrate de enlazar el archivo CSS correctamente -->
+    <title>Albercitobb</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff; /* Color de fondo suave */
+            color: #333;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #444;
+            margin-bottom: 20px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        }
+
+        hr {
+            border: none;
+            height: 2px;
+            background-color: #ddd;
+            margin: 40px 0;
+        }
+
+        /* Contenedor principal */
+        .row {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        /* Estilos de las imágenes */
+        .class-img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        /* Hover en las imágenes */
+        .class-img:hover {
+            transform: scale(1.05); /* Zoom al pasar el mouse */
+            box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Centrando contenido */
+        center {
+            margin-bottom: 30px;
+        }
+
+        /* Estilos de los títulos */
+        h1 {
+            text-align: center;
+            color: #0066cc;
+            font-weight: bold;
+        }
+
+        /* Estilo para el contenedor general */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Añadir un fondo a las secciones */
+        .section {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+            margin-bottom: 40px;
+        }
+
+        /* Para dispositivos móviles */
+        @media screen and (max-width: 768px) {
+            .class-img {
+                width: 150px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Primera Sección: Phonogram Sounds -->
+        <div class="section">
+            <h1>Phonogram Sounds</h1>
+            <div class="row">
+                <center>
+                    <img class="class-img" src="./images/Phonogram/Phonogram-1.jpeg" alt="">
+                    <img class="class-img" src="./images/Phonogram/Phonogram-2.jpeg" alt="">
+                    <img class="class-img" src="./images/Phonogram/Phonogram-3.jpeg" alt="">
+                    <img class="class-img" src="./images/Phonogram/Phonogram-4.jpeg" alt="">
+                </center>
+            </div>
+            <div class="row">
+                <center>
+                    <img class="class-img" src="./images/Phonogram/Phonogram-5.jpeg" alt="">
+                    <img class="class-img" src="./images/Phonogram/Phonogram-6.jpeg" alt="">
+                    <img class="class-img" src="./images/Phonogram/Phonogram-7.jpeg" alt="">
+                    <img class="class-img" src="./images/Phonogram/Phonogram-8.jpeg" alt="">
+                </center>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Segunda Sección: LearnEnglish Sounds Right -->
+        <div class="section">
+            <h1>LearnEnglish Sounds Right</h1>
+            <div class="row">
+                <center>
+                    <img class="class-img" src="./images/LearnEnglish/Learn-1.jpeg" alt="">
+                    <img class="class-img" src="./images/LearnEnglish/Learn-2.jpeg" alt="">
+                    <img class="class-img" src="./images/LearnEnglish/Learn-3.jpeg" alt="">
+                    <img class="class-img" src="./images/LearnEnglish/Learn-4.jpeg" alt="">
+                </center>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Tercera Sección: IPA chart - English -->
+        <div class="section">
+            <h1>IPA chart - English</h1>
+            <div class="row">
+                <center>
+                    <img class="class-img" src="./images/IPA/Ipa-1.jpeg" alt="">
+                    <img class="class-img" src="./images/IPA/Ipa-2.jpeg" alt="">
+                    <img class="class-img" src="./images/IPA/Ipa-3.jpeg" alt="">
+                    <img class="class-img" src="./images/IPA/Ipa-4.jpeg" alt="">
+                </center>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
